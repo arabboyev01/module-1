@@ -3,7 +3,6 @@ import { AvatarProps } from '../../types';
 import { AvatarContainer, Eye, Face, Eyes } from './style.avatar';
 
 const Avatar: FC<AvatarProps> = ({ data }) => {
-  console.log(data);
   const { skin_color, eye_color } = data;
 
   return (

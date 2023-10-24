@@ -4,8 +4,9 @@ export const StyleHomeComponent = styled.div`
   max-width: 1330px;
   margin: 50px auto;
   @media (max-width: 1330px) {
-    margin: 50px;
+    margin: 50px 20px;
   }
+  
 `;
 
 export const PersonWrapper = styled.div`
@@ -13,6 +14,10 @@ export const PersonWrapper = styled.div`
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 20px;
   margin: 50px 0;
+  
+  @media(max-width: 430px){
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
 `;
 export const StyledCart = styled.div`
   gap: 20px;
