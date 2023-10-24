@@ -5,5 +5,5 @@ export const StyleLoader = styled.div`
   height: 100%;
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 40%;
 `;
