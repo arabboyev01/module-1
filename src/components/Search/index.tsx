@@ -5,7 +5,7 @@ const Search = () => {
   const location = useLocation();
 
   const queryName = customQuerySelector(location.search, 'search-term');
-  console.log(queryName)
+  console.log(queryName);
 
   return <DumbSearch />;
 };
