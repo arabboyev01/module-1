@@ -1,3 +1,5 @@
+import { ReactNode } from 'react'
+
 export interface PaginationProps {
   count: number;
 }
@@ -34,4 +36,19 @@ export interface SearchProp {
 
 export interface AvatarProps {
   data: Character;
+}
+
+export
+interface ChildrenProp {
+  children: ReactNode;
+}
+
+export interface CreateContextType {
+  data: null|Character[]
+  handleChangeData: (value: Character[]) => void
+}
+
+
+export interface SearchDataProp {
+  data: Character[]
 }
